@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 初始化样式 */
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            /* 去掉没必要的样式 */
+        }
+        .nav{
+            height: 40px;
+            /* 这里做一个渐变的导航条 */
+            background: linear-gradient(#e8c178,#e60);
+        }
+        .navlist li{
+            /* 通过左浮动，让列表变成横排 */
+            float: left;
+            height: 40px;
+            width:100px;
+            /* 让文本水平垂直居中 */
+            line-height: 40px;
+            text-align: center;
+        }
+        .navlist a{
+            /* 超链接改成黑色 */
+            color:black;
+            /* 我们把链接变成块显示 */
+            display:block
+        }
+        
+        .navlist{
+            /* 列表宽设为800，然后居中 */
+            width: 800px;
+            margin:auto;
+        }
+        /* 设置鼠标悬停链接时，背景颜色变化 */
+        .navlist a:hover{
+            background:#ebb039 ;
+            }
+
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <!-- 放入列表 -->
+    <ul class="navlist">
+        <li><a href="#">主页</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">联系我们</a></li>
+        
+    </ul>
+    </div>    
+</body>
+</html>
