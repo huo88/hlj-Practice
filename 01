@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        img{color:#e5d9d9;}
+        h3{color:#7fd2eb;text-align: center;}
+        .img{border-radius: 10%;width: 150px;}
+        td{text-align:center;}
+    </style>
+</head>
+<body leftmargin="250" rightmargin="250">
+    <h1 align="center"><font color="#70c3e3" > 个人网页</font></h1>
+    <hr size="10" color="#f5c0c0">
+    <img src="蓝底2.jpg" alt="" width="150" align="right" border="3">
+    <p>姓 名：霍李静</p>
+    <p>性 别：女</p>
+    <p>籍 贯：河南省</p>
+    <p>专 业：计算机类</p>
+    <p>爱 好：电影</p>
+    <p>联系方式：12321456789</p>
+    <br><br><br><br><br>
+    <h3 >我喜欢的电影</h3>
+    <table border="1" cellspacing="0" align="center">
+        <tr>
+            <td><a href="#">《流浪地球》</a> </td>
+            <td><a href="#">《保你平安》</a></td>
+            <td><a href="#">《人生路不熟》</a></td>
+        </tr>
+        <tr>
+            <td><img src="tupian/1tu.jpg" alt="" class="img" ></td>
+            <td><img src="tupian/2tu.jpg" alt="" class="img"></td>
+            <td><img src="tupian/6tu.jpg" alt="" class="img"></td>
+        </tr>
+        <tr>
+            
+            <td><a href="#">《交换人生》</a></td>
+            <td><a href="#">《深海》</a></td>
+            <td><a href="#">《熊出没之伴我熊芯》</a></td>
+        </tr>
+        <tr>
+            
+            <td><img src="tupian/5tu.jpg" alt="" class="img"></td>
+            <td><img src="tupian/3tu.jpg" alt="" class="img"></td>
+            <td><img src="tupian/4tu.jpg" alt="" class="img"></td>
+        </tr>
+    </table>
+</body>
+</html>
