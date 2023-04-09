@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+            text-decoration: none;
+        }
+    .box{
+        width: 240px;
+        height: 50px;
+        background-color: #dcefef;
+    }
+    .kuai{
+        text-align: center; 
+        line-height: 50px;
+        width: 80px;
+        height: 50px;
+        float: left;
+        box-shadow: 0px 0px 1px;
+    }
+    .kuai:hover{
+        background-color: #cbced1;
+    }
+    .kuai a{
+        color:black;
+        display: block;
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="kuai"><a href="#"> 按钮一</a></div>
+        <div class="kuai"><a href="#"> 按钮二</a></div>
+        <div class="kuai"><a href="#"> 按钮三</a></div>
+    </div>
+</body>
+</html>
