@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0 ;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+           
+        }
+        .nav{
+            height:40px;
+            background-color: #eff3f3;
+        }
+        .libt{
+            float: left;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+           
+        }
+        .libt a{
+            color:black;
+            display: block;
+        }
+        .libt a:hover{
+            background: #d6e3e3;
+        }
+        .droplist{
+            background: #eee;
+            box-shadow: 0px 1px 2px;
+            display: none;
+        }
+        .libt:hover .droplist{
+            display: block;
+        }
+        .droplist li{
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="ullist">
+            <li class="libt"><a href="#">菜单项</a>
+            <ul class="droplist">
+                <li><a href="#">我是下拉1</a></li>
+                <li><a href="#">我是下拉1</a></li>
+                <li><a href="#">我是下拉1</a></li>
+                <li><a href="#">我是下拉1</a></li>
+                <li><a href="#">我是下拉1</a></li>
+            </ul>
+            </li>
+            <li class="libt"><a href="#">菜单项</a>
+                <ul class="droplist">
+                    <li><a href="#">我是下拉2</a></li>
+                    <li><a href="#">我是下拉2</a></li>
+                    <li><a href="#">我是下拉2</a></li>
+                    <li><a href="#">我是下拉2</a></li>
+                    <li><a href="#">我是下拉2</a></li>
+                </ul>
+            </li>
+            <li class="libt"><a href="#">菜单项</a>
+                <ul class="droplist">
+                    <li><a href="#">我是下拉3</a></li>
+                    <li><a href="#">我是下拉3</a></li>
+                    <li><a href="#">我是下拉3</a></li>
+                    <li><a href="#">我是下拉3</a></li>
+                    <li><a href="#">我是下拉3</a></li>
+                </ul>
+            </li>
+            <li class="libt"><a href="#">菜单项</a>
+                <ul class="droplist">
+                    <li><a href="#">我是下拉4</a></li>
+                    <li><a href="#">我是下拉4</a></li>
+                    <li><a href="#">我是下拉4</a></li>
+                    <li><a href="#">我是下拉4</a></li>
+                    <li><a href="#">我是下拉4</a></li>
+                </ul>
+            </li>
+            <li class="libt"><a href="#">菜单项</a>
+                <ul class="droplist">
+                    <li><a href="#">我是下拉5</a></li>
+                    <li><a href="#">我是下拉5</a></li>
+                    <li><a href="#">我是下拉5</a></li>
+                    <li><a href="#">我是下拉5</a></li>
+                    <li><a href="#">我是下拉5</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
